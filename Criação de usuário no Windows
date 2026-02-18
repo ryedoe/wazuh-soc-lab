@@ -1,0 +1,8 @@
+<group name="windows,custom,account">
+  <rule id="100100" level="12">
+    <if_matched_sid>60106</if_matched_sid>
+    <description>Criação de usuário local no Windows</description>
+    <mitre>T1136</mitre>
+    <options>no_full_log</options>
+  </rule>
+</group>
