@@ -1,0 +1,18 @@
+wazuh-soc-lab/
+├── README.md
+├── architecture/
+│   └── diagram.png
+├── dashboards/
+│   ├── soc-overview.md
+│   ├── windows-security.md
+│   └── audit-fim.md
+├── playbooks/
+│   ├── user-creation.md
+│   ├── brute-force.md
+│   └── fim-change.md
+├── rules/
+│   └── local_rules.xml
+├── active-response/
+│   ├── firewall-block.md
+│   └── user-removal.md
+└── screenshots/
