@@ -1,0 +1,8 @@
+<group name="fim,windows,critical">
+  <rule id="100200" level="13">
+    <if_group>syscheck</if_group>
+    <match>System32</match>
+    <description>Alteração crítica em System32</description>
+    <mitre>T1565</mitre>
+  </rule>
+</group>
