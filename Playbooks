@@ -1,0 +1,21 @@
+# Criação de usuário suspeito – Windows
+
+## Gatilho
+Rule level ≥ 12 | MITRE T1136
+
+## Análise
+- Verificar usuário
+- Confirmar legitimidade
+
+## Contenção
+- Isolamento lógico do host
+
+## Erradicação
+- Remoção do usuário
+
+## Evidências
+- Logs de segurança
+- Alerta Wazuh (JSON)
+
+## Resultado
+Incidente contido sem impacto lateral
